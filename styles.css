@@ -1,0 +1,116 @@
+https://github.com/kizilov/C-Users-User-Desktop-css-weather-forecast.git
+html{
+ overflow:  hidden;
+ }
+	
+*{
+	box-sizing: border-box;
+}
+body{
+	border: 20px solid #2b81ac;
+	background-color: #3399cc;
+	min-height:100vh;
+	margin: 0 auto;
+	font: 20px “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+} 
+
+header{
+padding: 20px;
+text-align: center;
+color: white;
+width: 51%;
+}
+
+main{
+	width: 80%;
+	margin: 0 auto;
+}
+
+*{
+	transition: all .3s ease-in;
+}
+
+ul:hover li {
+ opacity: 0.6;
+}
+ul li:hover {
+ opacity: 1;
+}
+
+ul{
+	font-size: 0;
+	color: white;
+}
+
+li{
+	border: 2px solid #fff; 
+	display: inline-block;
+	font-size: 16px;
+	width: 100%;
+	text-align: center;
+	padding: 30px;
+}
+
+li:nth-child(1) {
+background-color:#3399cc;
+}
+
+li:nth-child(2) {
+background-color: #7fffd4;
+}
+
+li:nth-child(3) {
+background-color: #ba55d3;
+}
+
+li:nth-child(4) {
+background-color: #b22222;
+}
+
+li:nth-child(5) {
+background-color: #ff7f50;
+}
+
+
+li:nth-child(6) {
+background-color: #ffd700;
+}
+
+li:nth-child(7) {
+background-color: #98fb98;
+}
+
+li:nth-child(8) {
+background-color: #5f9ea0;
+}
+
+li:nth-child(9) {
+background-color: #da70d6;
+}
+
+li:nth-child(10) {
+background-color: #2e8b57;
+}
+
+li:nth-child(11) {
+background-color: #9932cc;
+}
+
+.xs{
+width: 25%;
+}
+
+.md{
+width: 50%;
+}
+
+.lg{
+width: 100%;
+}
+
+footer{
+padding: 20px;
+text-align: right;
+color: white;
+width: 57%;
+}
